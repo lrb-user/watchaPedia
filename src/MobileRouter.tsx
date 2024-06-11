@@ -9,7 +9,7 @@ import MobileMovieContentPage from './components/Pages/Mobile/MobileMovieContent
 const MobileRouter:React.FC = () => {
     return(
         <>
-           <Router>
+           <Router basename={process.env.PUBLIC_URL}>
                 <Routes>
                     <Route element={<MobileLoginLayout />}>
                         <Route path="/" element={<MobileLoginPage />}/>
