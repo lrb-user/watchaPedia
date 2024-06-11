@@ -18,7 +18,7 @@ function App() {
   return (
     <>
       <BrowserView>
-        <Router basename={process.env.PUBLIC_URL}>
+        <Router>
                 <Routes>
                     <Route element={<LoginLayout />}>
                         <Route path="/" element={<LoginPage />}/>
@@ -31,7 +31,7 @@ function App() {
             </Router>
       </BrowserView>
       <MobileView>
-        <Router basename={process.env.PUBLIC_URL}>
+        <Router>
                 <Routes>
                     <Route element={<MobileLoginLayout />}>
                         <Route path="/" element={<MobileLoginPage />}/>
