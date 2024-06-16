@@ -1,10 +1,10 @@
 import React from 'react';
-
+import { Link } from 'react-router-dom';
 const movieData = [
-    {id:0, src:'/src/assets/images/recommendMovie1.jpg', name:'위시', country:'2023 미국', grade:'3.0점'},
-    {id:1, src:'/src/assets/images/recommendMovie2.jpg', name:'서울의 봄', country:'2023 한국', grade:'4.0점'},
-    {id:2, src:'/src/assets/images/recommendMovie1.jpg', name:'위시', country:'2023 미국', grade:'3.0점'},
-    {id:3, src:'/src/assets/images/recommendMovie1.jpg', name:'위시', country:'2023 미국', grade:'3.0점'}
+    {id:0, src:'/watchaPedia/assets/images/recommendMovie1.jpg', name:'위시', country:'2023 미국', grade:'3.0점'},
+    {id:1, src:'/watchaPedia/assets/images/recommendMovie2.jpg', name:'서울의 봄', country:'2023 한국', grade:'4.0점'},
+    {id:2, src:'/watchaPedia/assets/images/recommendMovie1.jpg', name:'위시', country:'2023 미국', grade:'3.0점'},
+    {id:3, src:'/watchaPedia/assets/images/recommendMovie1.jpg', name:'위시', country:'2023 미국', grade:'3.0점'}
 ]
 
 const ThisMonthBestContentMovie:React.FC =() => {
@@ -12,7 +12,7 @@ const ThisMonthBestContentMovie:React.FC =() => {
         <>
             <div id="movie" className="flex justify-center gap-5">
                 {movieData.map((data) => (
-                    <a href="" key={data.id} className="grid gap-5">
+                    <Link to="/movieContentPage" key={data.id} className="grid gap-5">
                         <div className="">
                             <img src={data.src} className="w-full" alt="" />
                         </div>
@@ -26,7 +26,7 @@ const ThisMonthBestContentMovie:React.FC =() => {
                                 {data.grade}
                             </p>
                         </div>
-                    </a>
+                    </Link>
 
                 ))}
             </div>

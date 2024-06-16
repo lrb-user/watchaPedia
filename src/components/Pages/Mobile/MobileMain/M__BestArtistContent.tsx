@@ -41,7 +41,7 @@ const M__BestArtistContent:React.FC = () => {
                     <SwiperSlide>
                         <div className="text-center rounded-full relative">
                             <div className="">
-                                <img src="/src/assets/images/artist1.jpg" alt="" />
+                                <img src="/watchaPedia/assets/images/artist1.jpg" alt="" />
                             </div>
                             {/* <p className="absolute top-0 left-0 bg-[#00000080] text-white p-4 font-bold">NO.1</p> */}
                             <p className="w-full h-[50px] absolute left-0 bottom-0 bg-[#00000080] text-white p-4 font-bold">톰하디</p>
@@ -50,7 +50,7 @@ const M__BestArtistContent:React.FC = () => {
                     <SwiperSlide>
                         <div className="text-center rounded-full">
                             <div className="">
-                                <img src="/src/assets/images/artist2.jpg" alt="" />
+                                <img src="/watchaPedia/assets/images/artist2.jpg" alt="" />
                             </div>
                             {/* <p className="absolute top-0 left-0 bg-[#00000080] text-white p-4 font-bold">NO.2</p> */}
                             <p className="w-full h-[50px] absolute left-0 bottom-0 bg-[#00000080] text-white p-4 font-bold">배수지</p>
@@ -59,7 +59,7 @@ const M__BestArtistContent:React.FC = () => {
                     <SwiperSlide>
                         <div className="text-center rounded-full">
                             <div className="">
-                                <img src="/src/assets/images/artist3.jpg" alt="" />
+                                <img src="/watchaPedia/assets/images/artist3.jpg" alt="" />
                             </div>
                             {/* <p className="absolute top-0 left-0 bg-[#00000080] text-white p-4 font-bold">NO.3</p> */}
                             <p className="w-full h-[50px] absolute left-0 bottom-0 bg-[#00000080] text-white p-4 font-bold">베넥딕트 컴버배치</p>
@@ -68,7 +68,7 @@ const M__BestArtistContent:React.FC = () => {
                     <SwiperSlide>
                         <div className="text-center rounded-full">
                             <div className="">
-                                <img src="/src/assets/images/artist4.jpg" alt="" />
+                                <img src="/watchaPedia/assets/images/artist4.jpg" alt="" />
                             </div>
                             {/* <p className="absolute top-0 left-0 bg-[#00000080] text-white p-4 font-bold">NO.4</p> */}
                             <p className="w-full h-[50px] absolute left-0 bottom-0 bg-[#00000080] text-white p-4 font-bold">콜린 퍼스</p>
@@ -77,7 +77,7 @@ const M__BestArtistContent:React.FC = () => {
                     <SwiperSlide>
                         <div className="text-center rounded-full">
                             <div className="">
-                                <img src="/src/assets/images/artist5.jpg" alt="" />
+                                <img src="/watchaPedia/assets/images/artist5.jpg" alt="" />
                             </div>
                             {/* <p className="absolute top-0 left-0 bg-[#00000080] text-white p-4 font-bold">NO.5</p> */}
                             <p className="w-full h-[50px] absolute left-0 bottom-0 bg-[#00000080] text-white p-4 font-bold">고마츠 나나</p>
@@ -86,7 +86,7 @@ const M__BestArtistContent:React.FC = () => {
                     <SwiperSlide>
                         <div className="text-center rounded-full">
                             <div className="">
-                                <img src="/src/assets/images/artist6.jpg" alt="" />
+                                <img src="/watchaPedia/assets/images/artist6.jpg" alt="" />
                             </div>
                             {/* <p className="absolute top-0 left-0 bg-[#00000080] text-white p-4 font-bold">NO.6</p> */}
                             <p className="w-full h-[50px] absolute left-0 bottom-0 bg-[#00000080] text-white p-4 font-bold">강동원</p>
@@ -95,7 +95,7 @@ const M__BestArtistContent:React.FC = () => {
                     <SwiperSlide>
                         <div className="text-center rounded-full">
                             <div className="">
-                                <img src="/src/assets/images/artist7.jpg" alt="" />
+                                <img src="/watchaPedia/assets/images/artist7.jpg" alt="" />
                             </div>
                             {/* <p className="absolute top-0 left-0 bg-[#00000080] text-white p-4 font-bold">NO.7</p> */}
                             <p className="w-full h-[50px] absolute left-0 bottom-0 bg-[#00000080] text-white p-4 font-bold">신카이 마코토</p>
@@ -104,7 +104,7 @@ const M__BestArtistContent:React.FC = () => {
                     <SwiperSlide>
                         <div className="text-center rounded-full relative">
                             <div className="">
-                                <img src="/src/assets/images/artist1.jpg" alt="" />
+                                <img src="/watchaPedia/assets/images/artist1.jpg" alt="" />
                             </div>
                             {/* <p className="absolute top-0 left-0 bg-[#00000080] text-white p-4 font-bold">NO.8</p> */}
                             <p className="w-full h-[50px] absolute left-0 bottom-0 bg-[#00000080] text-white p-4 font-bold">톰하디</p>
@@ -113,7 +113,7 @@ const M__BestArtistContent:React.FC = () => {
                     <SwiperSlide>
                         <div className="text-center rounded-full">
                             <div className="">
-                                <img src="/src/assets/images/artist2.jpg" alt="" />
+                                <img src="/watchaPedia/assets/images/artist2.jpg" alt="" />
                             </div>
                             {/* <p className="absolute top-0 left-0 bg-[#00000080] text-white p-4 font-bold">NO.9</p> */}
                             <p className="w-full h-[50px] absolute left-0 bottom-0 bg-[#00000080] text-white p-4 font-bold">배수지</p>

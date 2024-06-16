@@ -36,8 +36,8 @@ const Layout:React.FC = () => {
                         styles={'rounded-sm w-[350px] placeholder:text-sm text-black text-sm focus:border-transparent focus:ring-transparent'}
                     />
                     <ul className="flex gap-2">
-                        <li><a href="" className="py-2.5 px-2.5 text-sm font-bold rounded-md text-primary">로그인</a></li>
-                        <li><a href="" className="bg-primary text-white rounded-md py-2.5 px-2.5 text-sm font-bold leading-none">회원가입</a></li>
+                        <li><a className="py-2.5 px-2.5 text-sm font-bold rounded-md text-primary cursor-pointer">로그인</a></li>
+                        <li><a className="bg-primary text-white rounded-md py-2.5 px-2.5 text-sm font-bold leading-none cursor-pointer">회원가입</a></li>
                     </ul>
                 </div>
             </div>

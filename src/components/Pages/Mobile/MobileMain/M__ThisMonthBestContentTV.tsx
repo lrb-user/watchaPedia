@@ -1,10 +1,10 @@
 import React from 'react';
 
 const tvData = [
-    {id:0, src:'/src/assets/images/recommendTv1.jpg', name:'소년시대', country:'2023 한국', grade:'4.5점'},
-    {id:1, src:'/src/assets/images/recommendTv2.jpg', name:'위시', country:'2023 미국', grade:'4.5점'},
-    {id:2, src:'/src/assets/images/recommendTv1.jpg', name:'소년시대', country:'2023 한국', grade:'4.5점'},
-    {id:3, src:'/src/assets/images/recommendTv1.jpg', name:'소년시대', country:'2023 한국', grade:'4.5점'},
+    {id:0, src:'/watchaPedia/assets/images/recommendTv1.jpg', name:'소년시대', country:'2023 한국', grade:'4.5점'},
+    {id:1, src:'/watchaPedia/assets/images/recommendTv2.jpg', name:'위시', country:'2023 미국', grade:'4.5점'},
+    {id:2, src:'/watchaPedia/assets/images/recommendTv1.jpg', name:'소년시대', country:'2023 한국', grade:'4.5점'},
+    {id:3, src:'/watchaPedia/assets/images/recommendTv1.jpg', name:'소년시대', country:'2023 한국', grade:'4.5점'},
 ]
 
 const M__ThisMonthBestContentTV:React.FC = () => {

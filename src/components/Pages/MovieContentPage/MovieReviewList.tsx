@@ -16,7 +16,7 @@ const MovieReviewList:React.FC = () => {
                         <li className="bg-[#191a1c] rounded-md p-4">
                             <div className="flex justify-between px-4 py-4 border-b border-solid border-gray-200">
                                 <div className="flex gap-2 items-center">
-                                    <img src="src/assets/images/MovieContent/profile1.jpg" className="w-[32px] h-[32px] rounded-full" alt="" />
+                                    <img src="/watchaPedia/assets/images/MovieContent/profile1.jpg" className="w-[32px] h-[32px] rounded-full" alt="" />
                                     <p>{movieReviewItem.name}</p>
                                 </div>
                                 <div className="flex items-center gap-x-0.5 px-3 bg-primary rounded-full before:bg-star before:bg-no-repeat before:bg-cover before:w-[18px] before:h-[18px]">
@@ -28,11 +28,11 @@ const MovieReviewList:React.FC = () => {
                             </div>
                             <div className="flex gap-2 px-4 py-3 border-b border-solid border-gray-200">
                                 <div className="flex items-center gap-1">
-                                    <img src="src/assets/images/MovieContent/icoGood.svg" alt="" />
+                                    <img src="/watchaPedia/assets/images/MovieContent/icoGood.svg" alt="" />
                                     <p>{movieReviewItem.numberOfLike}</p>
                                 </div>
                                 <div className="flex items-center gap-1">
-                                    <img src="src/assets/images/MovieContent/icoComment.svg" alt="" />
+                                    <img src="/watchaPedia/assets/images/MovieContent/icoComment.svg" alt="" />
                                     <p>{movieReviewItem.comment}</p>
                                 </div>
                             </div>

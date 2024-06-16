@@ -18,16 +18,16 @@ const M__collactionContent:React.FC = () => {
                             <div className="overflow-hidden">
                                 <div className="grid grid-cols-2 gap-2 transition duration-500 hover:scale-110">
                                     <div>
-                                        <img src={`/src/assets/images/${data.src1}`} alt='' />
+                                        <img src={`/watchaPedia/assets/images/${data.src1}`} alt='' />
                                     </div>
                                     <div>
-                                        <img src={`/src/assets/images/${data.src2}`} alt='' />
+                                        <img src={`/watchaPedia/assets/images/${data.src2}`} alt='' />
                                     </div>
                                     <div>
-                                        <img src={`/src/assets/images/${data.src3}`} alt='' />
+                                        <img src={`/watchaPedia/assets/images/${data.src3}`} alt='' />
                                     </div>
                                     <div>
-                                        <img src={`/src/assets/images/${data.src4}`} alt='' />
+                                        <img src={`/watchaPedia/assets/images/${data.src4}`} alt='' />
                                     </div>
                                 </div>
                             </div>

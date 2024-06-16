@@ -1,10 +1,10 @@
 import React from 'react';
 
 const collactionData = [
-    {id:1, src1:'/src/assets/images/collection1-1.jpg', src2:'/src/assets/images/collection1-2.jpg', src3:'/src/assets/images/collection1-3.jpg', src4:'/src/assets/images/collection1-4.jpg', desc:'#부산국제영화제 수상작'},
-    {id:2, src1:'/src/assets/images/collection2-1.jpg', src2:'/src/assets/images/collection2-2.jpg', src3:'/src/assets/images/collection2-3.jpg', src4:'/src/assets/images/collection2-4.jpg', desc:'#부산국제영화제 수상작'},
-    {id:3, src1:'/src/assets/images/collection3-1.jpg', src2:'/src/assets/images/collection3-2.jpg', src3:'/src/assets/images/collection3-3.jpg', src4:'/src/assets/images/collection3-4.jpg', desc:'#부산국제영화제 수상작'},
-    {id:4, src1:'/src/assets/images/collection4-1.jpg', src2:'/src/assets/images/collection4-2.jpg', src3:'/src/assets/images/collection4-3.jpg', src4:'/src/assets/images/collection4-4.jpg', desc:'#부산국제영화제 수상작'},
+    {id:1, src1:'/watchaPedia/assets/images/collection1-1.jpg', src2:'/watchaPedia/assets/images/collection1-2.jpg', src3:'/watchaPedia/assets/images/collection1-3.jpg', src4:'/watchaPedia/assets/images/collection1-4.jpg', desc:'#부산국제영화제 수상작'},
+    {id:2, src1:'/watchaPedia/assets/images/collection2-1.jpg', src2:'/watchaPedia/assets/images/collection2-2.jpg', src3:'/watchaPedia/assets/images/collection2-3.jpg', src4:'/watchaPedia/assets/images/collection2-4.jpg', desc:'#부산국제영화제 수상작'},
+    {id:3, src1:'/watchaPedia/assets/images/collection3-1.jpg', src2:'/watchaPedia/assets/images/collection3-2.jpg', src3:'/watchaPedia/assets/images/collection3-3.jpg', src4:'/watchaPedia/assets/images/collection3-4.jpg', desc:'#부산국제영화제 수상작'},
+    {id:4, src1:'/watchaPedia/assets/images/collection4-1.jpg', src2:'/watchaPedia/assets/images/collection4-2.jpg', src3:'/watchaPedia/assets/images/collection4-3.jpg', src4:'/watchaPedia/assets/images/collection4-4.jpg', desc:'#부산국제영화제 수상작'},
 ]
 
 const CollactionContent:React.FC = () => {

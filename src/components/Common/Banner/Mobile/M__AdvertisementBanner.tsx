@@ -4,7 +4,7 @@ const M__AdvertisementBanner:React.FC = () => {
     return(
         <>
             <div className="mx-auto">
-                <img src="/src/assets/images/advertisementBanner.png" alt="" />
+                <img src="/watchaPedia/assets/images/advertisementBanner.png" alt="" />
             </div> 
         </>
     )

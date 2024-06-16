@@ -1,10 +1,10 @@
 import React from 'react';
 
 const movieData = [
-    {id:0, src:'/src/assets/images/recommendMovie1.jpg', name:'위시', country:'2023 미국', grade:'3.0점'},
-    {id:1, src:'/src/assets/images/recommendMovie2.jpg', name:'서울의 봄', country:'2023 한국', grade:'4.0점'},
-    {id:2, src:'/src/assets/images/recommendMovie1.jpg', name:'위시', country:'2023 미국', grade:'3.0점'},
-    {id:3, src:'/src/assets/images/recommendMovie1.jpg', name:'위시', country:'2023 미국', grade:'3.0점'}
+    {id:0, src:'/watchaPedia/assets/images/recommendMovie1.jpg', name:'위시', country:'2023 미국', grade:'3.0점'},
+    {id:1, src:'/watchaPedia/assets/images/recommendMovie2.jpg', name:'서울의 봄', country:'2023 한국', grade:'4.0점'},
+    {id:2, src:'/watchaPedia/assets/images/recommendMovie1.jpg', name:'위시', country:'2023 미국', grade:'3.0점'},
+    {id:3, src:'/watchaPedia/assets/images/recommendMovie1.jpg', name:'위시', country:'2023 미국', grade:'3.0점'}
 ]
 
 const M__ThisMonthBestContentMovie:React.FC =() => {

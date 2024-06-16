@@ -1,10 +1,10 @@
 import React from 'react';
 
 const bookData = [
-    {id:0, src:'/src/assets/images/recommendBook1.jpg', name:'사소한 것', country:'2023 한국', grade:'3.5점'},
-    {id:1, src:'/src/assets/images/recommendBook2.jpg', name:'빛으로도', country:'2023 일본', grade:'3.3점'},
-    {id:2, src:'/src/assets/images/recommendBook1.jpg', name:'사소한 것', country:'2023 한국', grade:'3.5점'},
-    {id:3, src:'/src/assets/images/recommendBook1.jpg', name:'사소한 것', country:'2023 한국', grade:'3.5점'},
+    {id:0, src:'/watchaPedia/assets/images/recommendBook1.jpg', name:'사소한 것', country:'2023 한국', grade:'3.5점'},
+    {id:1, src:'/watchaPedia/assets/images/recommendBook2.jpg', name:'빛으로도', country:'2023 일본', grade:'3.3점'},
+    {id:2, src:'/watchaPedia/assets/images/recommendBook1.jpg', name:'사소한 것', country:'2023 한국', grade:'3.5점'},
+    {id:3, src:'/watchaPedia/assets/images/recommendBook1.jpg', name:'사소한 것', country:'2023 한국', grade:'3.5점'},
 ]
 
 const M__ThisMonthBestContentBook:React.FC = () => {

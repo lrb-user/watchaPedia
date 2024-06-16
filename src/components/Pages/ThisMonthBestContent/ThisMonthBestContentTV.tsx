@@ -1,10 +1,10 @@
 import React from 'react';
-
+import { Link } from 'react-router-dom';
 const tvData = [
-    {id:0, src:'/src/assets/images/recommendTv1.jpg', name:'소년시대', country:'2023 한국', grade:'4.5점'},
-    {id:1, src:'/src/assets/images/recommendTv2.jpg', name:'위시', country:'2023 미국', grade:'4.5점'},
-    {id:2, src:'/src/assets/images/recommendTv1.jpg', name:'소년시대', country:'2023 한국', grade:'4.5점'},
-    {id:3, src:'/src/assets/images/recommendTv1.jpg', name:'소년시대', country:'2023 한국', grade:'4.5점'},
+    {id:0, src:'/watchaPedia/assets/images/recommendTv1.jpg', name:'소년시대', country:'2023 한국', grade:'4.5점'},
+    {id:1, src:'/watchaPedia/assets/images/recommendTv2.jpg', name:'위시', country:'2023 미국', grade:'4.5점'},
+    {id:2, src:'/watchaPedia/assets/images/recommendTv1.jpg', name:'소년시대', country:'2023 한국', grade:'4.5점'},
+    {id:3, src:'/watchaPedia/assets/images/recommendTv1.jpg', name:'소년시대', country:'2023 한국', grade:'4.5점'},
 ]
 
 const ThisMonthBestContentTV:React.FC = () => {
@@ -12,7 +12,7 @@ const ThisMonthBestContentTV:React.FC = () => {
         <>
             <div id="tv" className="flex justify-center gap-5">
                 {tvData.map((data) => (
-                    <a href="" className="grid gap-5">
+                    <Link to="/movieContentPage" className="grid gap-5">
                         <div className="">
                             <img src={data.src} className="w-full" alt="" />
                         </div>
@@ -26,7 +26,7 @@ const ThisMonthBestContentTV:React.FC = () => {
                                 {data.grade}
                             </p>
                         </div>
-                    </a>
+                    </Link>
                 ))}
             </div>
         </>
