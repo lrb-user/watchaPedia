@@ -9,7 +9,7 @@ export default {
   theme: {
     extend: {
       backgroundImage:{
-        'movieBg1':"url('images/MovieContent/movieBackgroundImg.jpg')",
+        'movieBg1':"url('/watchaPedia/assets/images/MovieContent/movieBackgroundImg.jpg')",
         'moviePoster':"url('images/MovieContent/moviePoster1.jpg')",
         'star':"url('images/MovieContent/star.svg')",
         'faceBook':"url('images/Sns/faceBook.svg')",
